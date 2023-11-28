@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:ital,wght@0,300;0,500;1,100;1,300&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+nav {
+    margin: 10px;
+}
+
+div {
+    margin-left: 50px;
+    padding: 25px;
+}
+
+div > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+ul > li {
+    font-size: 2.5rem;
+    margin-right: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#intro > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro > div > h1 {
+    font-size: 8rem;
+    padding-left: 6vw;
+    font-weight: 800;
+}
+
+
+#intro > div > p {
+    font-size: 2rem;
+    padding-left: 6vw;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#intro > img {
+    width: 50%;
+    border: 3px solid black;
+}
+
+
+#works {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#works > img {
+    width: 275px;
+    height: 300px;
+    padding: 20px 10px;
+    margin: 10px;
+    border: 3px solid black;
+}
+
+#gallery {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+#gallery > img {
+    width: 40%;
+    padding: 20px 10px;
+    margin: 10px;
+}
+
+article {
+    text-align: left;
+    font-size: 2rem;
+    margin: 20px 150px;
+    padding: 20px;
+    line-height: 3rem;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 0.5rem;
+    border: 5px dashed cadetblue;
+}
